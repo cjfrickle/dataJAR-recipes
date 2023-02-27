@@ -7,7 +7,7 @@
     NOTE: When launching this App there are PPPC prompts for sh and java.
     The .pkg recipe can handle the sh prompt but the java prompt seems unavoidable</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.download.Ekahau_Pro</string>
+    <string>com.github.dataJAR-recipes.download.Ekahau Pro</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
