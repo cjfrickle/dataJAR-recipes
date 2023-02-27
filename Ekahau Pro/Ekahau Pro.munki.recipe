@@ -9,7 +9,7 @@
     <key>Identifier</key>
     <string>com.github.dataJAR-recipes.munki.Ekahau Pro</string>
     <key>Input</key>
-    <dict> 
+    <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>NAME</key>
