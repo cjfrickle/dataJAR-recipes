@@ -7,7 +7,7 @@
     NOTE: When launching this App there are PPPC prompts for sh and java.
     This .pkg recipe can handle the sh prompt but the java prompt seems unavoidable</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.pkg.Ekahau Pro</string>
+    <string>com.github.dataJAR-recipes.pkg.Ekahau_Pro</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -267,9 +267,9 @@ fi</string>
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Ekahau Pro.app</string>
+                <string>%pathname%/Ekahau/ Pro.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Ekahau Pro.app</string>
+                <string>%pkgroot%/Applications/Ekahau/ Pro.app</string>
                 <key>overwrite</key>
                 <true/>
             </dict>
