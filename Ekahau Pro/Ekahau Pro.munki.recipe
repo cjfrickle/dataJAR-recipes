@@ -37,6 +37,16 @@
             <key>unattended_install</key>
             <true/>
             <key>unattended_uninstall</key>
+            <key>postinstall_script</key>
+	<string>#!/bin/zsh
+
+currentUser=$( scutil &lt;&lt;&lt; "show State:/Users/ConsoleUser" | awk '/Name :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
+
+sudo chown -R "$currentUser" /Applications/Ekahau\ AI\ Pro.app/Contents</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
             <true/>
         </dict>
     </dict>
