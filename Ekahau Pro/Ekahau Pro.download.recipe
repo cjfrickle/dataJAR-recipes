@@ -27,7 +27,7 @@
                 <key>url</key>
                 <string>%SEARCH_URL%</string>
                 <key>re_pattern</key>
-                <string><string>(https://sw\.ekahau\.com/download/pro/setup/EkahauPro-.*\.dmg)</string></string>
+                <string><string>(https://sw\.ekahau\.com/download/pro/setup/Ekahau*-.*\.dmg)</string></string>
                 <key>result_output_var_name</key>
                 <string>url</string>
             </dict>
